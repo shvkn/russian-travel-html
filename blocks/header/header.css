@@ -1,0 +1,8 @@
+.header {
+  display: grid;
+  align-items: end;
+  grid-auto-flow: column;
+  grid-column: header-s / header-e;
+  grid-row: header;
+  grid-template-columns: 1fr auto;
+}

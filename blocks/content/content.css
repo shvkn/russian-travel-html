@@ -1,8 +1,8 @@
 .content {
-  grid-column: content-s / content-e;
-  grid-row: content;
   display: grid;
   grid-auto-flow: column;
+  grid-column: content-s / content-e;
+  grid-row: content;
   grid-row-gap: 92px;
 }
 

@@ -8,3 +8,8 @@
 @import "../blocks/header/__lang-link/_selected/header__lang-link_selected.css";
 
 @import "../blocks/content/content.css";
+
+@import "../blocks/footer/footer.css";
+@import "../blocks/footer/__links/footer__links.css";
+@import "../blocks/footer/__link/footer__link.css";
+@import "../blocks/footer/__copyright/footer__copyright.css";

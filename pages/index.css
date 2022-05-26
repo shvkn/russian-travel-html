@@ -26,3 +26,6 @@
 @import "../blocks/intro/__text/intro__text.css";
 @import "../blocks/intro/__list-item/intro__list-item.css";
 @import "../blocks/intro/__list-item-value/intro__list-item-value.css";
+
+@import "../blocks/photo-grid/photo-grid.css";
+@import "../blocks/photo-grid/__item/photo-grid__item.css";

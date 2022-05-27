@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 720px) {
   .content-container {
-    grid-template-columns: 0 [lead-s places-s cover-s] 16px [intro-s photo-grid-s] auto [intro-e photo-grid-e] 16px [lead-e places-e cover-e];
     grid-row-gap: 88px;
+    grid-template-columns: 0 [lead-s places-s cover-s] 16px [intro-s photo-grid-s] auto [intro-e photo-grid-e] 16px [lead-e places-e cover-e];
   }
 }

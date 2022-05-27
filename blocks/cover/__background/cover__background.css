@@ -1,8 +1,7 @@
 .cover__background {
-  background: url("../../../images/cover.jpg") center center no-repeat;
-  background-size: cover;
+  grid-area: 1/1;
   width: 100%;
   padding-bottom: 62.5%;
-  grid-area: 1/1;
-
+  background: url("../../../images/cover-background.jpg") center center no-repeat;
+  background-size: cover;
 }

@@ -1,3 +1,4 @@
 .lead {
   grid-column: lead-s / lead-e;
+  display: grid;
 }

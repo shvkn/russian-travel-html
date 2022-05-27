@@ -1,0 +1,22 @@
+.places {
+  grid-column: l100 / r100;
+  /*background-color: magenta;*/
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    grid-column: l48 / r48;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    grid-column: l24 / r24;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places {
+    grid-column: l16 / r16;
+  }
+}

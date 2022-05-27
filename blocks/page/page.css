@@ -12,23 +12,25 @@
   color: #FFF;
 }
 
-@media screen and (max-width: 1279px) {
+
+@media screen and (max-width: 1024px) {
   .page {
     grid-template-columns: 0 [content-s] 48px [header-s footer-s] auto [header-e footer-e] 48px [content-e] 0;
     grid-template-rows: 28px [header] auto 48px [content] auto 92px [footer] auto 24px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .page {
     grid-template-columns: 0 [content-s] 24px [header-s footer-s] auto [header-e footer-e] 24px [content-e] 0;
     grid-template-rows: 28px [header] auto 48px [content] auto 88px [footer] auto 24px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
   .page {
     grid-template-columns: 0 [content-s] 16px [header-s footer-s] auto [header-e footer-e] 16px [content-e] 0;
     grid-template-rows: 16px [header] auto 48px [content] auto 64px [footer] auto 24px;
   }
 }
+

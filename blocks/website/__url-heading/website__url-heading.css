@@ -1,0 +1,12 @@
+.website__url-heading {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  /* or 20px */
+
+  letter-spacing: 2px;
+
+  color: #AAAAAA;
+  margin: 0;
+  padding: 0;
+}

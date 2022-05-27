@@ -29,3 +29,14 @@
 
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
+
+@import "../blocks/places/places.css";
+@import "../blocks/place/place.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+@import "../blocks/place/__text-container/place__text-container.css";
+
+@import "../blocks/website/website.css";
+@import "../blocks/website/__link/website__link.css";
+@import "../blocks/website/__url-heading/website__url-heading.css";

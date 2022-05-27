@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  transition: opacity .3s linear;
+}
+
+
+.link:hover {
+  opacity: 0.8;
+}

@@ -1,7 +1,7 @@
 .places {
+  display: grid;
   grid-column: places-s / places-e;
   grid-row-gap: 80px;
-  display: grid;
 }
 
 @media screen and (max-width: 768px) {

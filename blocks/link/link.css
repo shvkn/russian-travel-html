@@ -1,9 +1,9 @@
 .link {
-  text-decoration: none;
-  color: #FFF;
-  margin: 0;
   padding: 0;
+  margin: 0;
   opacity: 1;
+  color: #FFF;
+  text-decoration: none;
   transition: opacity .3s linear;
 }
 

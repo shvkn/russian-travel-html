@@ -1,5 +1,4 @@
 .website {
-  grid-column: website-s / website-e;
   align-self: end;
-
+  grid-column: website-s / website-e;
 }

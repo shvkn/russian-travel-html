@@ -1,4 +1,4 @@
 .cover {
-  grid-column: cover-s / cover-e;
   display: grid;
+  grid-column: cover-s / cover-e;
 }

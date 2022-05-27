@@ -1,21 +1,3 @@
 .intro {
-  grid-column: l100 / r100;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    grid-column: l48 / r48;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    grid-column: l24 / r24;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .intro {
-    grid-column: l16 / r16;
-  }
+  grid-column: intro-s / intro-e;
 }

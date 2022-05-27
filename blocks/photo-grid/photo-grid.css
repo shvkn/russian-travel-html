@@ -1,6 +1,6 @@
 .photo-grid {
-  grid-column: l0 / r0;
   display: grid;
+  grid-column: photo-grid-s / photo-grid-e;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
 }
@@ -13,14 +13,12 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-column: l24 / r24;
     gap: 16px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .photo-grid {
-    grid-column: l16 / r16;
     gap: 12px;
   }
 }

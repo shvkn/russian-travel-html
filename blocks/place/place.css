@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 720px) {
   .place {
-    grid-row-gap: 18px;
+    grid-row-gap: 32px;
     grid-template-columns: 0 [place-image-s] 16px [place-title-s website-s place-text-container-s] 1fr [place-title-e website-e place-text-container-e] 16px [place-image-e];
   }
 }

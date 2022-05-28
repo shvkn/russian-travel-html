@@ -1,5 +1,6 @@
 .intro {
   grid-column: intro-s / intro-e;
+  grid-row: intro;
   max-width: 690px;
 }
 

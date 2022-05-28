@@ -1,6 +1,7 @@
 .places {
   display: grid;
   grid-column: places-s / places-e;
+  grid-row: places;
   grid-row-gap: 80px;
 }
 
@@ -12,6 +13,6 @@
 
 @media screen and (max-width: 720px) {
   .places {
-    grid-row-gap: 64px;
+    grid-row-gap: 50px;
   }
 }

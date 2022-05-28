@@ -1,6 +1,7 @@
 .cover {
   display: grid;
   grid-column: cover-s / cover-e;
+  grid-row: cover;
   background: url("../../images/cover-background.jpg") center center no-repeat;
   background-size: cover;
 }

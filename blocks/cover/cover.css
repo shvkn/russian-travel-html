@@ -1,4 +1,24 @@
 .cover {
   display: grid;
   grid-column: cover-s / cover-e;
+  background: url("../../images/cover-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.cover::before {
+  grid-area: 1/1;
+  padding-top: 62.5%;
+  content: '';
+}
+
+.cover::after {
+  grid-area: 1/1;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: opacity .3s linear;
+  content: '';
+}
+
+.cover:hover::after {
+  opacity: .8;
 }
